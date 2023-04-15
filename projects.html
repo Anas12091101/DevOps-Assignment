@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Projects</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+        </ul>
+    </nav>
+    <h1>My Projects</h1>
+    <input type="text" id="filterInput" onkeyup="filterProjects()" placeholder="Filter by Technology">
+    <div id="projectsList"></div>
+</body>
+<script src="script.js"></script>
+<script>showProjects();</script>
+</html>

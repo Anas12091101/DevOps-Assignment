@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+nav {
+    background-color: #0066cc;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #0056a8;
+}
+
+input[type="text"] {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#projectsList, #coursesList {
+    margin-top: 10px;
+    padding: 0;
+    list-style-type: none;
+}
+
+.project, .course {
+    margin-bottom: 5px;
+}
+
+.project {
+    font-weight: bold;
+}
+
+.course {
+    color: #666;
+}
