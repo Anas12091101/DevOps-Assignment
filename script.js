@@ -30,6 +30,13 @@ const courses = [
 
 ];
 
+const certificates = [
+    'Scrum Foundation',
+    'Python Django',
+    'Dean List of Honours',
+    'Folio3 Best Project Implementation and Delivery'
+]
+
 
 function filterProjects() {
     let filterInput = document.getElementById("filterInput");
@@ -48,7 +55,6 @@ function filterProjects() {
 
 
 function populateCourses() {
-    console.log("Here")
     let coursesList = document.getElementById("coursesList");
 
     courses.forEach(course => {
@@ -58,6 +64,17 @@ function populateCourses() {
         coursesList.appendChild(courseLi);
     });
 }
+function populateCertificates(){
+    let certificatesList = document.getElementById("certificatesList");
+
+    certificates.forEach(certificate => {
+        let certificateLi = document.createElement("li");
+        certificateLi.className = "course";
+        certificateLi.textContent = certificate;
+        certificatesList.appendChild(certificateLi);
+    });
+}
+
 
 function showProjects(){
     let projectsList = document.getElementById("projectsList");
