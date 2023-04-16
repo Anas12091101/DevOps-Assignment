@@ -26,6 +26,7 @@ const courses = [
     "CN",
     "Information Security",
     "DLP",
+    "DevOps"
 
 ];
 
